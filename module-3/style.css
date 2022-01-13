@@ -1,1 +1,82 @@
+*{
+    border:0px;
+    margin: 0px;
+}
+#header-nav{
+    background-color: rgba(165, 112, 42, 0.692); 
+    border-radius: 0;
+    border: 0;
+    
+}
+.navbar-header h1{
+    color:brown;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 4px 1px 1px 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 10px;
+    line-height:62px;
+    padding-left: 20px;
+    
+   
+    
+}
+.navbar-header a{
+    
+    margin-left: 28px;
+}
+ .navbar-header a:hover{
+    text-decoration: none;
+}
+button.navbar-toggle{
+    margin-top: 20px;
+   
+}
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    
+    border:2px solid rgba(165, 42, 42, 0.726);
+}
+ul li{
+    background-color: rgba(244, 165, 96, 0.322);
+    box-sizing: cover;
+    opacity: 0.8;
+   height: 60px;
+}
 
+ul li a{
+    text-align: center;
+    font-size: 30px;
+    
+   }
+
+#main-content h1{
+    font-size: 60px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    color: rgba(165, 42, 42, 0.705);
+    
+    font-family:fantasy ;
+    }
+    #main-content{
+        background-color: rgba(222, 184, 135, 0.438);
+        box-sizing: cover;
+    }
+    .heading h2{
+        font-size: 50px;
+        font-weight: bold;
+        color: rgba(165, 42, 42, 0.616);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .heading{
+        border:2px solid brown;
+        border-radius: 10px;
+        box-shadow: 4px 3px 8px 7px rgba(165, 42, 42, 0.281);
+        background-color: rgba(165, 112, 42, 0.315);
+        
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: cursive;
+        padding-left: 4px;
+        padding-right: 4px;
+        }
